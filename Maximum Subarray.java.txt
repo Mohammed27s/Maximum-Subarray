@@ -6,6 +6,15 @@ import java.util.*;
 import java.util.Arrays;
 public class MaximumSubarray {
 
+    public static Integer arraySumPath1;
+    public static Integer arraySumPath2;
+    public static Integer arraySumPath3;
+    public static Integer arraySumPath4;
+    public static Integer arraySumPath5;
+
+
+
+
     public static <Int> void main(String[] args){
 
 
@@ -21,40 +30,107 @@ public class MaximumSubarray {
 
 
 
-    System.out.println("sizes : "+arrayPath1.length);
-    System.out.println("sizes : "+arrayPath2.length);
-    System.out.println("sizes : "+arrayPath3.length);
-    System.out.println("sizes : "+arrayPath4.length);
-    System.out.println("sizes : "+arrayPath5.length);
-
-
     System.out.println("--------------------------------------------------------------------"+"\n");
 
 
+    for(Integer i = 0; arrayPath1.length -1  >= i; i++){
 
 
+           arraySumPath1 = arrayPath1[i];
+
+           arraySumPath1++;
 
 
+    }
+
+    System.out.println("The sum of the first array path : "+arraySumPath1+"\n");
 
 
+        for(Integer i = 0; arrayPath2.length -1  >= i; i++){
 
 
+            arraySumPath2 = arrayPath1[i];
 
-
-
-
-
-
-
+            arraySumPath2++;
 
 
         }
 
+        System.out.println("The sum of the second array path : "+arraySumPath2+"\n");
 
 
 
+        for(Integer i = 0; arrayPath3.length -1  >= i; i++){
+
+
+            arraySumPath3 = arrayPath1[i];
+
+            arraySumPath3++;
+
+
+        }
+
+        System.out.println("The sum of the Third array path : "+arraySumPath3+"\n");
+
+
+        for(Integer i = 0; arrayPath4.length -1  >= i; i++){
+
+
+            arraySumPath4 = arrayPath1[i];
+
+            arraySumPath4++;
+
+
+        }
+
+        System.out.println("The sum of the second array path : "+arraySumPath4+"\n");
+
+
+        for(Integer i = 0; arrayPath5.length -1  >= i; i++){
+
+
+            arraySumPath5 = arrayPath1[i];
+
+            arraySumPath5++;
+
+
+        }
+
+        System.out.println("The sum of the second array path : "+arraySumPath5+"\n");
+
+
+
+        System.out.println("Finding the array path with largest sum :- "+"\n");
+
+
+        if(arraySumPath1 >= 5){
+
+            System.out.println("This is "+arrayPath1+" the best path to earn a lot of coins"+"\n");
+        }
+        else if (arraySumPath2 >= 5) {
+
+            System.out.println("This is "+arrayPath2+"the best path to earn a lot of coins"+"\n");
+
+        }
+        else if (arraySumPath3 >= 5) {
+
+            System.out.println("This is "+arrayPath3+" the best path to earn a lot of coins"+"\n");
+        }
+        else if (arraySumPath4 >= 5) {
+
+            System.out.println("This is "+arrayPath4+" the best path to earn a lot of coins"+"\n");
+
+        }
+        else if (arraySumPath5 >= 5) {
+
+            System.out.println("This is "+arrayPath5+" the best path to earn a lot of coins"+"\n");
+
+        }
+        else {
+
+            System.out.println("There is no best path now !!");
+        }
 
 
     }
 }
-
