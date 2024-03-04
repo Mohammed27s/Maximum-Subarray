@@ -1,0 +1,60 @@
+
+
+//Maximum Subarray
+
+import java.util.*;
+import java.util.Arrays;
+public class MaximumSubarray {
+
+    public static <Int> void main(String[] args){
+
+
+
+    System.out.println("Find the contiguous sub-array within an array that has the largest sum."+"\n");
+
+
+    Integer[] arrayPath1 = new Integer[]{-2,1,-3,4,-1,2,1,-5,4};
+    Integer[] arrayPath2 = new Integer[]{1,2,3,4};
+    Integer[] arrayPath3 = new Integer[]{-1,-2,-3,-4};
+    Integer[] arrayPath4 = new Integer[]{5,4,-1,7,8};
+    Integer[] arrayPath5 = new Integer[]{10,-3,4,-2,5,1};
+
+
+
+    System.out.println("sizes : "+arrayPath1.length);
+    System.out.println("sizes : "+arrayPath2.length);
+    System.out.println("sizes : "+arrayPath3.length);
+    System.out.println("sizes : "+arrayPath4.length);
+    System.out.println("sizes : "+arrayPath5.length);
+
+
+    System.out.println("--------------------------------------------------------------------"+"\n");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+    }
+}
+
